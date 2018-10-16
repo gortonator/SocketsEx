@@ -26,11 +26,12 @@ public class SocketClientThread extends Thread {
     public SocketClientThread(String hostName, int port, CyclicBarrier barrier) {
         this.hostName = hostName;
         this.port = port;
-        clientID = Thread.currentThread().getId();
         synk = barrier;
     }
     
     public void run() {
+        
+        clientID = Thread.currentThread().getId();
         
         try {
             // TO DO insert code to pass 10k messages to the SocketServer
