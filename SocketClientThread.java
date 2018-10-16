@@ -33,7 +33,7 @@ public class SocketClientThread extends Thread {
     public void run() {
         
         try {
-            // insert code to pass 10k messages to the SocketServer
+            // TO DO insert code to pass 10k messages to the SocketServer
             Socket s = new Socket(hostName, port);
            
         
