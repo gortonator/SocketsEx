@@ -33,7 +33,7 @@ public class SocketClientMultithreaded {
         }
         barrier = new CyclicBarrier(MAX_THREADS);
         
-        // create and start client threads
+        // TO DO create and start client threads
         
      
                 
